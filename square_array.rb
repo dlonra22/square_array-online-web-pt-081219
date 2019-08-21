@@ -3,7 +3,7 @@ def square_array(array)
   cnt = 0
   array.each do |elmnt| 
     array[cnt] = elmnt*elmnt
-    puts " Here is element #{array[cnt]} "
+    puts " Here is element #{cnt}: #{array[cnt]} "
     cnt+=1
  end
 end
