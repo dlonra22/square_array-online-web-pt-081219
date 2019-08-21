@@ -6,5 +6,4 @@ def square_array(array)
     puts " Here is element #{elmnt} "
     cnt+=1
  end
- array
 end
