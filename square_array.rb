@@ -2,9 +2,9 @@ def square_array(array)
   #your code here
   cnt = 0
   array.each do |elmnt| 
-    array[elmnt] = elmnt*elmnt
+    array[cnt] = elmnt*elmnt
     puts " Here is element #{elmnt} "
-    puts 
+    cnt+=1
  end
  array
 end
